@@ -6,7 +6,8 @@ local premiumUsers = {
     ["xes_jsok"] = true,
     ["Itz_Mariena"] = true,
     ["thiagojuniorgamer12"] = true,
-    ["Kaua_452"] = true
+    ["Kaua_452"] = true,
+    ["mariajm15"] = true
 }
 
 local gui = Instance.new("ScreenGui")
