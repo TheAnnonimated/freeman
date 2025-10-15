@@ -138,7 +138,7 @@ local darkBg = Color3.fromRGB(15,15,15)
 local accentBg = Color3.fromRGB(30,30,30)
 
 local screenGui = Instance.new("ScreenGui")
-screenGui "FMANAdminPanel"
+screenGui = "FMANAdminPanel"
 screenGui.ResetOnSpawn = false
 screenGui.Parent = CoreGui
 
