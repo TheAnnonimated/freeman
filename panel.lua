@@ -1,6 +1,6 @@
 local player = game:GetService("Players").LocalPlayer
 
-local premiumUsers = {
+local panelUsers = {
     ["Kaua_452"] = true,
 }
 
@@ -34,7 +34,7 @@ msg.Font = Enum.Font.Gotham
 msg.TextSize = 18
 msg.TextColor3 = Color3.fromRGB(255,255,255)
 
-local function executarPremium()
+local function executarPanel()
     msg.Text = "Bem-vindo!"
     frame.BackgroundColor3 = Color3.fromRGB(10, 60, 20)
     wait(1.5)
@@ -45,10 +45,10 @@ end
 coroutine.wrap(function()
     msg.Text = "Aguarde."
     wait(3)
-    if premiumUsers[player.Name] == true then
+    if panelUsers[player.Name] == true then
         msg.Text = "Usuário Liberado!"
         wait(1)
-        executarPremium()
+        executarPanel()
     else
         local s = Instance.new("Sound")
         s.SoundId = "rbxassetid://3069892996"
