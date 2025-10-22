@@ -5,7 +5,7 @@ local panelUsers = {
 }
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "FreemanVerificationHub"
+gui.Name = "AuralynxVerificationHub"
 gui.ResetOnSpawn = false
 gui.Parent = player:WaitForChild("PlayerGui")
 
@@ -20,7 +20,7 @@ local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1,0,0,32)
 title.Position = UDim2.new(0,0,0,0)
 title.BackgroundTransparency = 1
-title.Text = "FREEMAN HUB PANEL VERIFICATION"
+title.Text = "Auralynx Verification"
 title.Font = Enum.Font.GothamBold
 title.TextSize = 13
 title.TextColor3 = Color3.fromRGB(0,120,255)
@@ -35,7 +35,7 @@ msg.TextSize = 18
 msg.TextColor3 = Color3.fromRGB(255,255,255)
 
 local function executarPanel()
-    msg.Text = "WELCOME!"
+    msg.Text = "Welcome!"
     frame.BackgroundColor3 = Color3.fromRGB(10, 60, 20)
     wait(1.5)
     gui:Destroy()
