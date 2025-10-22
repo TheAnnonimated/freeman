@@ -11,7 +11,7 @@ local premiumUsers = {
 }
 
 local gui = Instance.new("ScreenGui")
-gui.Name = "FreemanVerificationHub"
+gui.Name = "AuralynxVerificationHub"
 gui.ResetOnSpawn = false
 gui.Parent = player:WaitForChild("PlayerGui")
 
@@ -26,7 +26,7 @@ local title = Instance.new("TextLabel", frame)
 title.Size = UDim2.new(1,0,0,32)
 title.Position = UDim2.new(0,0,0,0)
 title.BackgroundTransparency = 1
-title.Text = "FREEMAN HUB - VERIFICATION"
+title.Text = "Auralynx Verification"
 title.Font = Enum.Font.GothamBold
 title.TextSize = 16
 title.TextColor3 = Color3.fromRGB(0,120,255)
@@ -66,3 +66,4 @@ coroutine.wrap(function()
         player:Kick("Você não tem permissão para usar esse script,\nadquira no nosso discord.")
     end
 end)()
+    
