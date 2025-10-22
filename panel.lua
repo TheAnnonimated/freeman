@@ -2,7 +2,6 @@ local player = game:GetService("Players").LocalPlayer
 
 local panelUsers = {
     ["Kaua_452"] = true,
-    ["pedro312je"] = true,
 }
 
 local gui = Instance.new("ScreenGui")
