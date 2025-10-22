@@ -29,24 +29,24 @@ local msg = Instance.new("TextLabel", frame)
 msg.Size = UDim2.new(1,-16,0,42)
 msg.Position = UDim2.new(0,8,0,40)
 msg.BackgroundTransparency = 1
-msg.Text = "Aguarde."
+msg.Text = "Loading..."
 msg.Font = Enum.Font.Gotham
 msg.TextSize = 18
 msg.TextColor3 = Color3.fromRGB(255,255,255)
 
 local function executarPanel()
-    msg.Text = "Bem-vindo!"
+    msg.Text = "WELCOME!"
     frame.BackgroundColor3 = Color3.fromRGB(10, 60, 20)
     wait(1.5)
     gui:Destroy()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/anonymous5729/freeman-scripting/main/verification.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Freeman7829/freemanscripts/main/wrapper-panel.lua"))()
 end
 
 coroutine.wrap(function()
-    msg.Text = "Aguarde."
+    msg.Text = "Loading..."
     wait(3)
     if panelUsers[player.Name] == true then
-        msg.Text = "Usuário Liberado!"
+        msg.Text = "Verified User!"
         wait(1)
         executarPanel()
     else
@@ -57,6 +57,6 @@ coroutine.wrap(function()
         s.Parent = workspace
         s:Play()
         wait(1)
-        player:Kick("Você não tem permissão para usar esse script,\nadquira no nosso discord.")
+        player:Kick("Pathetic, go get yours.")
     end
 end)()
