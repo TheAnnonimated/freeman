@@ -4,7 +4,6 @@ local premiumUsers = {
     ["JumexD24"] = true,
     ["Itz_Mariena"] = true,
     ["thiagojuniorgamer12"] = true,
-    ["Kaua_452"] = true,
     ["Andriel_cria4"] = true,
     ["eutoxitando123"] = true,
     ["pedro312jee"] = true,
