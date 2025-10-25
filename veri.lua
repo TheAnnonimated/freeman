@@ -8,7 +8,6 @@ local premiumUsers = {
     ["eutoxitando123"] = true,
     ["pedro312jee"] = true,
     ["Kaua_452"] = true,
-    ["pozela999"] = true,
 }
 
 local orange = Color3.fromRGB(255, 140, 0)
