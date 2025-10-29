@@ -249,8 +249,7 @@ coroutine.wrap(function()
         wait(1.5)
 
         gui:Destroy()
-
-        loadstring(game:HttpGet("https://pastefy.app/zSB3bYJM/raw"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/anonymous5729/freeman-scripting/main/verification.lua"))()
 
     else
 
