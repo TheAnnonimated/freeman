@@ -15,6 +15,8 @@ local premiumUsers = {
     ["pedro312jee"] = true,
 
     ["Kaua_452"] = true,
+   
+    ["kayke_nvconta2"] = true,
 
 }
 
